@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.app {
+  margin-top: 50px;
+}
+
+.start-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.start-button:hover {
+  background-color: #218838;
+}
+
+.quiz-container {
+  background: white;
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.question-card h2 {
+  font-size: 24px;
+}
+
+.options button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 18px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.options button:hover {
+  background: #0056b3;
+}
+
+.result-container {
+  background: white;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.result-container h2 {
+  color: #28a745;
+}
+
+.result-container button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #ffc107;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.result-container button:hover {
+  background-color: #e0a800;
+}
